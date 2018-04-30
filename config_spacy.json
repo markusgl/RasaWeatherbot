@@ -1,0 +1,6 @@
+{
+    "pipeline":"spacy_sklearn",
+    "language":"de",
+    "path":"./models/nlu",
+    "data":"./data/data.json"
+}

@@ -1,0 +1,18 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_inform",
+    "entity_location",
+    "entity_time",
+    "slot_location_0",
+    "slot_time_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask_location",
+    "prev_utter_ask_time",
+    "prev_action_weather"
+  ]
+}

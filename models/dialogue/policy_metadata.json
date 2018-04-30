@@ -1,0 +1,27 @@
+{
+  "max_history": 2,
+  "rasa_core": "0.8.6",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "action_fingerprints": {
+    "null": {
+      "slots": [
+        "location"
+      ]
+    },
+    "action_listen": {
+      "slots": [
+        "location",
+        "time"
+      ]
+    },
+    "action_weather": {
+      "slots": [
+        "location"
+      ]
+    }
+  },
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble"
+}

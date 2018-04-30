@@ -1,0 +1,43 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- utter_ask_time
+- action_weather
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- utter_ask_time
+- actions.ActionWeather
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- time
+intents:
+- greet
+- goodbye
+- inform
+slots:
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  time:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: In welchem Ort?
+  - text: Für welchen Ort?
+  - text: Wo?
+  utter_ask_time:
+  - text: Wann?
+  - text: An welchem Datum?
+  utter_goodbye:
+  - text: Bis später!
+  - text: Tschüss!
+  utter_greet:
+  - text: Hallo wie kann ich dir helfen?
+topics: []
