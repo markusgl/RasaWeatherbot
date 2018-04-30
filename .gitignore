@@ -104,15 +104,3 @@ ENV/
 .idea
 *.iml
 
-/data
-*.bin
-
-# tensorboard logs
-/logs
-
-# Glove Embedings
-glove.6B
-
-/examples
-
-*.hdf5

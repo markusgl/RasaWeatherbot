@@ -1,0 +1,31 @@
+slots:
+  location:
+    type: text
+  time:
+    type: text
+intents:
+  - greet
+  - goodbye
+  - inform
+entities:
+  - location
+  - time
+templates:
+  utter_greet:
+    - 'Hallo wie kann ich dir helfen?'
+  utter_goodbye:
+    - 'Bis später!'
+    - 'Tschüss!'
+  utter_ask_location:
+    - 'In welchem Ort?'
+    - 'Für welchen Ort?'
+    - 'Wo?'
+  utter_ask_time:
+    - 'Wann?'
+    - 'An welchem Datum?'
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_location
+  - utter_ask_time
+  - actions.ActionWeather

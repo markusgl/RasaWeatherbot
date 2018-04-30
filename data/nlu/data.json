@@ -1,0 +1,350 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hallo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Auf Wiedersehen",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Wie ist das Wetter in Berlin gerade?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "gerade",
+            "entity": "time"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hallo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "servus",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey du",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "tschüss",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ciao",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "tschö",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "wir sehen uns",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bis später",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Wie wird das Wetter heute?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Wie wird das Wetter in London heute?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "heute",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Zeig mir das Wetter in Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mich würde interessieren wie das Wetter in Vilnius gerade ist?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 43,
+            "end": 50,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Wie ist das Wetter?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Wie wird das Wetter",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Ist das Wetter in Barcelona heute gut?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Barcelona",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "heute",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Ich reise heute nach London und würde gerne das Wetter wissen?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "heute",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Ich plane eine Reise nach Amsterdam. Wie ist das Wetter dort?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Zeig mir bitte das Wetter für Dublin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in London",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Nürnberg",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Nürnberg",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Oh, falsch, in Italien",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Italien",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Zeig mir das Wetter in Vilnius",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Die Wetterbedingungen in Italien",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Italien",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Wie wird das Wetter in Nürnberg am Wochenende?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Nürnberg",
+            "entity": "location"
+          },
+          {
+            "start": 32,
+            "end": 45,
+            "value": "am Wochenende",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Wie wird das Wetter morgen?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "morgen",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Wie wird das Wetter morgen in München?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "morgen",
+            "entity": "time"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "München",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Nürnberg",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Nürnberg",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Wie wird das Wetter heute?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "heute",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Berlin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}
