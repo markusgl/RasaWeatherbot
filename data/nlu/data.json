@@ -344,6 +344,54 @@
             "entity": "location"
           }
         ]
+      },
+      {
+        "text": "Ich möchte gerne das Wetter für die nächsten Tage wissen",
+        "intent": "",
+        "entities": [
+          {
+            "start": 45,
+            "end": 50,
+            "value": "Tage ",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Wie wird heute das Wetter?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "heute",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Wie ist heute das Wetter?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "heute",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Wie ist die Wettervorhersage für morgen?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "morgen",
+            "entity": "time"
+          }
+        ]
       }
     ]
   }

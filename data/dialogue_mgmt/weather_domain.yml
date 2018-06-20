@@ -12,7 +12,7 @@ entities:
   - time
 templates:
   utter_greet:
-    - 'Hallo wie kann ich dir helfen?'
+    - 'Hallo ich bin WetterBot. Du kannst mich nach dem Wetter fragen.'
   utter_goodbye:
     - 'Bis später!'
     - 'Tschüss!'

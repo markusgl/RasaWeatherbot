@@ -104,3 +104,8 @@ ENV/
 .idea
 *.iml
 
+models/dialogue/policy_0_MemoizationPolicy
+models/dialogue/policy_1_KerasPolicy
+models/nlu/default/weathernlu
+
+keys.json

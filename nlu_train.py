@@ -1,14 +1,15 @@
-from rasa_nlu.converters import load_data
-from rasa_nlu.config import RasaNLUConfig
-from rasa_nlu.model import Trainer
+from rasa_nlu.training_data import load_data
+from rasa_nlu import config
+from rasa_nlu.model import Trainer, Interpreter
 
 
-def train_nlu(data, config, model_dir):
+def train_nlu(data, config_file, model_dir):
     training_data = load_data(data)
-    trainer = Trainer(RasaNLUConfig(config))
+    trainer = Trainer(config.load(config_file))
     trainer.train(training_data)
+
     # output directory for the trained model
-    trainer.persist(model_dir, fixed_model_name = "weathernlu")
+    trainer.persist(model_dir, fixed_model_name="weathernlu")
 
 
 if __name__ == '__main__':

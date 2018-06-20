@@ -39,5 +39,5 @@ templates:
   - text: Bis später!
   - text: Tschüss!
   utter_greet:
-  - text: Hallo wie kann ich dir helfen?
+  - text: Hallo ich bin WetterBot. Du kannst mich nach dem Wetter fragen.
 topics: []

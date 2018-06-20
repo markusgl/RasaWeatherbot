@@ -1,12 +1,11 @@
 {
-  "max_history": 2,
-  "rasa_core": "0.8.6",
-  "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
-  ],
   "action_fingerprints": {
     "null": {
+      "slots": [
+        "location"
+      ]
+    },
+    "action_weather": {
       "slots": [
         "location"
       ]
@@ -17,11 +16,35 @@
         "time"
       ]
     },
-    "action_weather": {
+    "utter_ask_location": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_greet": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_ask_time": {
+      "slots": [
+        "location"
+      ]
+    },
+    "utter_goodbye": {
       "slots": [
         "location"
       ]
     }
   },
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble"
+  "rasa_core": "0.9.3",
+  "max_histories": [
+    5,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
 }
